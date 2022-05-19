@@ -42,6 +42,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(text = "Hello $name!", modifier = modifier)
+
 }
 
 //@Preview(showBackground = true, widthDp = 200, heightDp = 100)
@@ -78,6 +79,8 @@ fun MediaItem(){
            contentAlignment = Alignment.Center,
            modifier = Modifier
                .fillMaxWidth()
+               .background(MaterialTheme.colors.secondary)
+               .padding(16.dp)
        ) {
            Text("Title 1")
        }
