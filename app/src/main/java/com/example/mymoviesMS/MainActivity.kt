@@ -82,7 +82,7 @@ fun MediaItem(){
                .background(MaterialTheme.colors.secondary)
                .padding(14.dp)
        ) {
-           Text("Title 1")
+           Text("Title 2")
        }
     }
 }
