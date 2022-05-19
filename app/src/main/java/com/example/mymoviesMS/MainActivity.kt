@@ -80,7 +80,7 @@ fun MediaItem(){
            modifier = Modifier
                .fillMaxWidth()
                .background(MaterialTheme.colors.secondary)
-               .padding(16.dp)
+               .padding(14.dp)
        ) {
            Text("Title 1")
        }
